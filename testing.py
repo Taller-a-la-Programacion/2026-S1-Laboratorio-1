@@ -32,7 +32,7 @@ def test_lab_13():
     assert Laboratorio01.calculadora (3, 4, 8) == 32
 
 def test_lab_14():
-    assert Laboratorio01.calculadora (4, 4, 8) == 0.5
+    assert Laboratorio01.calculadora (4, 10, 8) == 1
 
 def test_lab_15():
     assert isinstance(Laboratorio01.calculadora (14, 4, 8), str) == isinstance("Error: El parámetro operacion debe ser un valor menor a 5", str)
