@@ -9,7 +9,7 @@
 
 
 ## calculadora(operacion, op1, op2)
-Escriba una calculadora, que reciba 3 parámetros, el primero consiste en la operación y después los dos operadores, y que calcule el resultado y posteriormente lo imprima en pantalla. Las operaciones soportadas son **suma=1, resta=2, multiplicación=3 y división=4** (no es posible la división entre 0). Los parámetros deben ser de tipo entero, el parámetros **operacion** debe permitir valores 1,2,3 y 4, loa operadores deben ser de tipo entero.
+Escriba una calculadora, que reciba 3 parámetros, el primero consiste en la operación y después los dos operadores, y que calcule el resultado y posteriormente lo imprima en pantalla. Las operaciones soportadas son **suma=1, resta=2, multiplicación=3 y división entera=4** (no es posible la división entre 0). Los parámetros deben ser de tipo entero, el parámetros **operacion** debe permitir valores 1,2,3 y 4, loa operadores deben ser de tipo entero.
 ``` python
 >>> calculadora (1, 4, 8)
 12
