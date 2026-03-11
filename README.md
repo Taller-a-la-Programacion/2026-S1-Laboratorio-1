@@ -17,7 +17,8 @@ Escriba una calculadora, que reciba 3 parámetros, el primero consiste en la ope
 -4
 >>> calculadora (3, 4, 8)
 32
->>> calculadora (4, 4, 8)
+>>> calculadora (4, 10, 8)
+1
 ```
 
 ## contadorDigitos(num, digito)
