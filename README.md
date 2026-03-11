@@ -34,6 +34,7 @@ Implemente una función llamada **sumatoria_V2(inicio, fin, distancia, excepcio)
 Existen varias restricciones: 
 - Todos parámetros deben ser de tipo entero,
 - Los párametros **distancia y excepcion** debe ser menor a 10 y mayor a 0.
+- Los valores de **inicio** y **fin** deben ser positivos
 - Si la **distancia** es un número negativo, el valor de **fin** debe ser menor a **inicio**
 - Si la **distancia** es un número positivo, el valor de **fin** debe ser mayor a **inicio**
 - Si **excepcion** es igual a cero, se debe ignorar este valor, lo contrario, todo número dentro de la secuencia entre **inicio** y ** final** sea divisible por esta **excepcion** debe omitirse en la suma
@@ -45,6 +46,8 @@ Existen varias restricciones:
 9
 >>> sumatoria_V2(1, 5, 3, 2)  #1
 1
+>>> sumatoria_V2(10, 8, -1, 0)  #10 + 9 + 8
+27
 >>> sumatoria_V2(10, 5, 3, 2)  #1
 "Error: el parámetro inicio debe ser menor o igual a fin"
 
