@@ -34,6 +34,7 @@ Implemente una función llamada **contadorDigitos(num, digito)** donde se espera
 Implemente una función llamada **sumatoria_V2(inicio, fin, distancia, excepcio)** donde se espera que la salida la suma totoal de los números desde el parámetro inicio hasta el final.  
 Existen varias restricciones: 
 - Todos parámetros deben ser de tipo entero,
+- Solo el parámeetro **distancia** podría ser negativo
 - Los párametros **distancia y excepcion** debe ser menor a 10 y mayor a 0.
 - Los valores de **inicio** y **fin** deben ser positivos
 - Si la **distancia** es un número negativo, el valor de **fin** debe ser menor a **inicio**
